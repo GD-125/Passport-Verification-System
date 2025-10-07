@@ -1,0 +1,49 @@
+DIRECTORY STRUCTURE
+
+passport-verification-system/
+├── backend/
+│   ├── config/
+│   │   └── database.js 
+│   ├── controllers/
+│   │   ├── authController.js 
+│   │   ├── applicationController.js 
+│   │   ├── tokenController.js 
+│   │   ├── photoController.js 
+│   │   ├── verificationController.js 
+│   │   ├── processingController.js 
+│   │   ├── approvalController.js 
+│   │   └── adminController.js 
+│   ├── middleware/
+│   │   ├── authMiddleware.js 
+│   │   └── auditMiddleware.js 
+│   ├── models/
+│   │   └── index.js 
+│   ├── routes/
+│   │   └── index.js 
+│   ├── uploads/
+│   │   ├── documents/
+│   │   ├── photos/
+│   │   └── signatures/
+│   ├── .env 
+│   ├── server.js 
+│   └── package.json 
+├── frontend/
+│   ├── public/
+│   │   └── index.html 
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── PassportSystem.jsx (React component from artifact) 
+│   ├── services/
+│   │   └── api.js                      
+│   ├── App.js                        
+│   ├── index.js                      
+│   ├── index.css                       
+│   └── App.css                        
+│
+├── package.json                        
+├── tailwind.config.js                
+├── postcss.config.js                  
+└── .env      
+└── database/ 
+    └── schema.sql 
+└── README.md 
